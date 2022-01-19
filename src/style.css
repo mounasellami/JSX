@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.App { 
+  text-align: center; 
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(24px + 2vmin);
+  padding: 3% 0;
+}
+.title {font-family: Circular, Roboto, "Helvetica Neue", sans-serif;}
+.red {color:rgb(247, 52, 188);}
+.size {font-size: 183% }
+.weight {font-weight: 300 }
+
+.App-logo {
+  height: 13vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to {transform: rotate(360deg); }
+}
